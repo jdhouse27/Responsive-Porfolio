@@ -162,6 +162,98 @@ input[type=submit] {
     width: 100%;
    }
 
+/*media settings for 980px*/
+@media screen and (max-width: 980px){
+  #name{
+    margin-left: 2%;
+    top: 10%;
+    width: 30%;
+    font-size: 15px;
+  }
+  .container{
+    max-width: 980px;
+    width: 100%;
+    margin: 1% 5%;  
+    padding: 1%;
+  }
+  #content{
+    width: 100%;
+  }
+  html,
+  body{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    height: auto !important;
+  }
+  img{
+    width: 50%;
+    height: 50%;
+  }
+  .AboutMeText{
+    text-align: left;
+  }
+  .image_container{
+    margin: 0px 10px;
+
+  .footer{
+    width: 100%;
+    max-width: 980px;
+    bottom: 0;
+    padding: 0% 2%;
+    position: fixed;
+  }
+ }
+
+/*media settings for 768px*/
+   @media screen and (max-width: 768px){
+    .header{
+      padding: 8px;
+      position: fixed;  
+      margin: auto;
+    }
+    #name{
+      margin-left: 2%;
+      top: 10%;
+      width: 25%;
+      font-size: 15px;
+    }
+    .container{
+      max-width: 768px;
+      width: 100%;
+      margin: 1%;  
+      padding: 1%;
+    }
+    #content{
+      width: 100%;
+    }
+    html,
+    body{
+      width: 100%;
+      max-width: 768px;
+      margin: auto;
+      height: auto !important;
+    }
+    img{
+      width: 50%;
+      height: 50%;
+    }
+    .image_container{
+      margin: 0px 10px;
+    }
+    .AboutMeText{
+      text-align: left;
+    }
+
+    .footer{
+      width: 100%;
+      max-width: 768px;
+      bottom: 0;
+      padding: 0% 2%;
+      position: fixed;
+    }
+   }
+
 /*media settings for 640px*/
    @media screen and (max-width: 640px){
     .header{
@@ -239,101 +331,6 @@ input[type=submit] {
       max-width: 640;
       position: absolute;
       bottom: 0;
-    }
-   }
-
-/*media settings for 768px*/
-   @media screen and (max-width: 768px){
-    .header{
-      padding: 8px;
-      position: fixed;  
-      margin: auto;
-    }
-    #name{
-      margin-left: 2%;
-      top: 10%;
-      width: 25%;
-      font-size: 15px;
-    }
-    .container{
-      max-width: 768px;
-      width: 85%;
-      margin: 2%;  
-      padding: 2%;
-    }
-    #content{
-      width: 100%;
-    }
-    html,
-    body{
-      width: 100%;
-      max-width: 768px;
-      margin: auto;
-      height: auto !important;
-    }
-    img{
-      width: 50%;
-      height: 50%;
-    }
-    .image_container{
-      margin: 0px 10px;
-    }
-    .AboutMeText{
-      text-align: left;
-    }
-
-    .footer{
-      width: 100%;
-      max-width: 768px;
-      bottom: 0;
-      padding: 0% 2%;
-      position: fixed;
-    }
-   }
-
-/*media settings for 980px*/
-   @media screen and (max-width: 980px){
-    .header{
-      padding: 8px;
-      position: fixed;  
-      margin: auto;
-    }
-    #name{
-      margin-left: 2%;
-      top: 10%;
-      width: 25%;
-      font-size: 15px;
-    }
-    .container{
-      max-width: 980px;
-      width: 75%;
-      margin: 2%;  
-      padding: 2%;
-    }
-    #content{
-      width: 100%;
-    }
-    html,
-    body{
-      width: 100%;
-      max-width: 980px;
-      margin: auto;
-      height: auto !important;
-    }
-    img{
-      width: 50%;
-      height: 50%;
-    }
-    .AboutMeText{
-      text-align: left;
-    }
-
-    .footer{
-      width: 100%;
-      max-width: 980px;
-      bottom: 0;
-      padding: 0% 2%;
-      position: fixed;
     }
    }
 
